@@ -36,7 +36,7 @@ class Profile extends React.Component {
       <>
         <DemoNavbar />
         <main className="profile-page" ref="main">
-          <section className="section-profile-cover section-shaped my-0">
+          <section className="section-profile-cover bg-gradient-default">
             {/* Circles background */}
             <div className="shape shape-style-1 shape-default alpha-4">
               <span />
@@ -144,10 +144,16 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An Architect In both worlds.where would 
-                          stand in the world 10 years from now how will the world look like, and 
-                          how would my job be affected, thinking about the answer made me feel 
-                          like I need to step into the TECH world in order for my skills and 
+
+                          One of the things that excite me the most about Tech is the fact 
+                          that it's a limitless world, it offers so much room for innovation 
+                          and creativity,and it's everchanging and dynamic, it's always upgrading, 
+                          improving and up to date.
+                          <br />
+                          An Architect In both worlds.where would
+                          stand in the world 10 years from now how will the world look like, and
+                          how would my job be affected, thinking about the answer made me feel
+                          like I need to step into the TECH world in order for my skills and
                           knowledge to stay relative years from now.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
